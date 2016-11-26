@@ -19,6 +19,6 @@
   "homepage": "https://github.com/AlanAdamson/codedimage#readme",
   "dependencies": {
     "express": "^4.14.0",
-    "connect": "3.4.1"
+    "connect-assets": "*"
   }
 }
