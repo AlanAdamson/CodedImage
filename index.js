@@ -6,7 +6,7 @@ var addition = 1 + 1;
 console.log('Addition test ran and 1+1=' + addition);
 
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname + 'index.html'));
+    res.sendFile(path.join('index.html'));
 });
 
 app.listen(process.env.PORT || 3000, function(){
