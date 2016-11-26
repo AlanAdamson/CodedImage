@@ -11,7 +11,10 @@ app.get('/', function(req, res) {
 
 app.get('/style.css', function(req, res) {
     res.sendFile(path.join(__dirname + '/style.css'));
-    console.log('Got css?');
+});
+
+app.get('/work/', function(req, res) {
+    res.sendFile(path.join(__dirname + '/index.html'));
 });
 
 
