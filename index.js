@@ -13,8 +13,12 @@ app.get('/style.css', function(req, res) {
     res.sendFile(path.join(__dirname + '/style.css'));
 });
 
-app.get('/work/', function(req, res) {
+app.get('/work', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
+});
+
+app.get('/work/style.css', function(req, res) {
+    res.sendFile(path.join(__dirname + '/style.css'));
 });
 
 
