@@ -14,7 +14,7 @@ app.get('/style.css', function(req, res) {
 });
 
 app.get('/work', function(req, res) {
-    res.sendFile(path.join(__dirname + '/index.html'));
+    res.sendFile(path.join(__dirname + '/work/index.html'));
 });
 
 app.get('/work/style.css', function(req, res) {
