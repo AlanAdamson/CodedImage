@@ -1,4 +1,5 @@
 var express = require('express');
+var app = module.exports = express();
 
 var addition = 1 + 1;
 console.log('Addition test ran and 1+1=' + addition);
