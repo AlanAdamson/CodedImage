@@ -10,7 +10,7 @@ html, body {
   justify-content: center;
   height: 100vh;
   width: 100vw;
-  background-color: #719900;
+  background-color: #3D1025;
 }
 
 .wrapperGray {
@@ -23,7 +23,7 @@ html, body {
 
 .logo {
   font-family: 'Arial', sans-serif;
-  color: #FA8800;
+  color: #FF4D00;
   font-size: 5em;
 }
 
@@ -72,7 +72,7 @@ html, body {
 .header {
   display: flex;
   justify-content: center;
-  background-color: #719900;
+  background-color: #3D1025;
   padding: 10px;
   box-shadow: 0 0 20px #000;
 }
