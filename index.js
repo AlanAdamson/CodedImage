@@ -6,11 +6,12 @@ var addition = 1 + 1;
 console.log('Addition test ran and 1+1=' + addition);
 
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname + '/index.html'));
+    res.sendFile(path.join(__dirname + '/style.css'));
+    console.log('Got css?');
 });
 
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname + '/style.css'));
+    res.sendFile(path.join(__dirname + '/index.html'));
 });
 
 
