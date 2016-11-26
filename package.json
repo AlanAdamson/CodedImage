@@ -18,5 +18,6 @@
   },
   "homepage": "https://github.com/AlanAdamson/codedimage#readme",
   "dependencies": {
+    "express": "^4.14.0"
   }
 }
