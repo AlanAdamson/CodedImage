@@ -5,6 +5,3 @@ var massive = require('massive');
 var app = module.exports = express();
 app.use(bodyParser.json());
 app.use(cors());
-
-app.get('/',
-  );
