@@ -25,6 +25,7 @@ html, body {
   font-family: 'Inconsolata', serif;
   color: #FF6600;
   font-size: 4em;
+  font-weight: normal;
 }
 
 .contentWrap {
