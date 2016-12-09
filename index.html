@@ -3,14 +3,27 @@
   <head>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />    
+    <link rel="stylesheet" href="style.css" />
+    <script>
+	    $(function(){
+
+		    $("#typed").typed({
+			    strings: ["coded image"],
+			    typeSpeed: 30,
+          callback: function(){
+          shift();
+          }
+		    });
+
+	    });
+    </script>    
     <title>coded image|</title>
   </head>
   <body>
     <div class="wrapper">
       <header>
         <div class="logo">
-          <h1 class="logo-text">coded image|</h1>
+          <div class="logo-text element">coded image|</div>
         </div>
         <!-- <nav class="nav">
           <a class="nav-link" href="./">Home</a>
