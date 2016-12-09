@@ -22,8 +22,7 @@ html, body {
 }
 
 .logo {
-<<<<<<< HEAD
-  font-family: 'Coda', 'Arial', sans-serif;
+  font-family: 'Special Elite', cursive;
   color: #FF6600;
   font-size: 5em;
 }
@@ -79,9 +78,6 @@ html, body {
 }
 
 .logoMed {
-  font-family: 'Arial', sans-serif;
-  /*color: #FF4D00;*/
-  color: #FF6600;
   font-size: 4em;
   font-weight: bold;
   float: left;
