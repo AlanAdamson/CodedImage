@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #ccc;
+  background-color: #541633;
 }
 
 .wrapper{
@@ -22,8 +22,9 @@ html, body {
 }
 
 .logo {
+<<<<<<< HEAD
   font-family: 'Coda', 'Arial', sans-serif;
-  color: #FF4D00;
+  color: #FF6600;
   font-size: 5em;
 }
 
@@ -41,7 +42,7 @@ html, body {
   height: 150px;
   background-color: #541633;
   border: 5px solid #ccc;
-  box-shadow: 0 0 7px #666;
+  box-shadow: 0 0 7px #000;
   margin: 2%;
 }
 
@@ -74,12 +75,13 @@ html, body {
   justify-content: center;
   background-color: #541633;
   padding: 10px;
-  box-shadow: 0 0 20px #000;
+  /*box-shadow: 0 0 20px #000;*/
 }
 
 .logoMed {
   font-family: 'Arial', sans-serif;
-  color: #FF4D00;
+  /*color: #FF4D00;*/
+  color: #FF6600;
   font-size: 4em;
   font-weight: bold;
   float: left;
