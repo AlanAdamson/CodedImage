@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="310.5785"
-     inkscape:cy="578.38411"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="411.86016"
+     inkscape:cy="529.82445"
      inkscape:document-units="px"
-     inkscape:current-layer="g4280"
+     inkscape:current-layer="g4258"
      showgrid="true"
      showguides="false"
      inkscape:guide-bbox="true"
@@ -79,7 +79,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="background"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <rect
        style="fill:#541633;fill-opacity:1;stroke:none;stroke-width:0.25;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -123,6 +123,12 @@
          cx="253"
          id="circle5011"
          style="fill:#541633;fill-opacity:1;stroke:none;stroke-width:0.25;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         style="fill:#541633;fill-opacity:1;stroke:none;stroke-width:0.25;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle4251"
+         cx="273"
+         cy="434.86221"
+         r="20" />
     </g>
   </g>
   <g
@@ -132,111 +138,116 @@
      style="display:inline">
     <g
        id="g4932"
-       transform="translate(124.32086,336.97835)">
+       transform="translate(124.32086,336.97835)"
+       style="fill:#ff6600;fill-opacity:1">
       <g
-         id="g4868">
+         id="g4868"
+         style="fill:#ff6600;fill-opacity:1">
         <g
-           id="g4219">
+           id="g4219"
+           style="fill:#ff6600;fill-opacity:1">
           <rect
              y="177.36218"
              x="85"
              height="5"
              width="5"
              id="rect4166"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
           <rect
              y="187.36218"
              x="85"
              height="15"
              width="5"
              id="rect4168"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
           <rect
              y="197.36218"
              x="85"
              height="5"
              width="25"
              id="rect4170"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
           <rect
              y="177.36218"
              x="87.5"
              height="5"
              width="22.5"
              id="rect4172"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
         </g>
         <g
-           id="g4225">
+           id="g4225"
+           style="fill:#ff6600;fill-opacity:1">
           <rect
              y="177.36218"
              x="120"
              height="5"
              width="5"
              id="rect4174"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
           <rect
              y="187.36218"
              x="120"
              height="15"
              width="5"
              id="rect4176"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
           <rect
              y="197.36218"
              x="120"
              height="5"
              width="25"
              id="rect4178"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
           <rect
              y="177.36218"
              x="122"
              height="5"
              width="23"
              id="rect4180"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
           <rect
              y="179.88731"
              x="140"
              height="21.010408"
              width="5"
              id="rect4182"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
         </g>
         <g
            id="g4204"
-           transform="translate(-48.928574,-12.67857)">
+           transform="translate(-48.928574,-12.67857)"
+           style="fill:#ff6600;fill-opacity:1">
           <rect
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1"
              id="rect4194"
              width="5"
              height="5"
              x="203.92857"
              y="190.04074" />
           <rect
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1"
              id="rect4196"
              width="5"
              height="15"
              x="203.92857"
              y="200.04074" />
           <rect
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1"
              id="rect4198"
              width="25"
              height="5"
              x="203.92857"
              y="210.04074" />
           <rect
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1"
              id="rect4200"
              width="23"
              height="5"
              x="205.92857"
              y="190.04074" />
           <rect
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1"
              id="rect4202"
              width="5"
              height="40"
@@ -245,30 +256,31 @@
         </g>
         <g
            id="g4232"
-           transform="translate(105,0)">
+           transform="translate(105,0)"
+           style="fill:#ff6600;fill-opacity:1">
           <rect
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1"
              id="rect4234"
              width="5"
              height="5"
              x="85"
              y="177.36218" />
           <rect
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1"
              id="rect4236"
              width="5"
              height="15"
              x="85"
              y="187.36218" />
           <rect
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1"
              id="rect4238"
              width="25"
              height="5"
              x="85"
              y="197.36218" />
           <rect
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1"
              id="rect4240"
              width="21.5"
              height="5"
@@ -280,95 +292,127 @@
              height="5"
              width="20"
              id="rect4242"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
           <rect
              y="182.3622"
              x="105"
              height="7.4748735"
              width="5"
              id="rect4244"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
         </g>
         <g
            transform="translate(21.071426,-12.67857)"
-           id="g4246">
+           id="g4246"
+           style="fill:#ff6600;fill-opacity:1">
           <rect
              y="190.04074"
              x="203.92857"
              height="5"
              width="5"
              id="rect4248"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
           <rect
              y="200.04074"
              x="203.92857"
              height="15"
              width="5"
              id="rect4250"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
           <rect
              y="210.04074"
              x="203.92857"
              height="5"
              width="25"
              id="rect4252"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
           <rect
              y="190.04074"
              x="206.92857"
              height="5"
              width="22"
              id="rect4254"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
           <rect
              y="175.04077"
              x="223.92857"
              height="40"
              width="5"
              id="rect4256"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
         </g>
       </g>
       <g
          transform="translate(160.45276,-51.318888)"
-         id="g4900">
+         id="g4900"
+         style="fill:#ff6600;fill-opacity:1">
         <g
            id="g4258"
-           transform="translate(20,50)">
+           transform="translate(20,50)"
+           style="fill:#ff6600;fill-opacity:1">
           <rect
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1"
              id="rect4260"
              width="5"
              height="5"
              x="85"
              y="177.36218" />
           <rect
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1"
              id="rect4262"
              width="5"
              height="15"
              x="85"
              y="187.36218" />
+          <rect
+             y="185.36218"
+             x="85"
+             height="5"
+             width="5"
+             id="rect4280"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
+          <rect
+             y="185.3622"
+             x="80.060654"
+             height="5"
+             width="5"
+             id="rect4283"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
+          <rect
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1"
+             id="rect4285"
+             width="5"
+             height="5"
+             x="80.060654"
+             y="197.3622" />
+          <rect
+             y="197.3622"
+             x="90.060654"
+             height="5"
+             width="5"
+             id="rect4287"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
         </g>
         <g
            transform="translate(35,50)"
-           id="g4268">
+           id="g4268"
+           style="fill:#ff6600;fill-opacity:1">
           <rect
              y="177.36218"
              x="85"
              height="5"
              width="5"
              id="rect4270"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
           <rect
              y="187.36218"
              x="85"
              height="15"
              width="5"
              id="rect4272"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
           <rect
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1"
              id="rect4274"
              width="5"
              height="25"
@@ -380,9 +424,9 @@
              height="25"
              width="5"
              id="rect4276"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
           <rect
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1"
              id="rect4278"
              width="18.803301"
              height="5"
@@ -391,44 +435,45 @@
         </g>
         <g
            transform="translate(70,50)"
-           id="g4280">
+           id="g4280"
+           style="fill:#ff6600;fill-opacity:1">
           <rect
              y="177.36218"
              x="85"
              height="5"
              width="5"
              id="rect4282"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
           <rect
              y="187.36218"
              x="85"
              height="15"
              width="5"
              id="rect4284"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
           <rect
              y="197.36218"
              x="85"
              height="5"
              width="25"
              id="rect4286"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
           <rect
              y="177.36218"
              x="89"
              height="5"
              width="21"
              id="rect4288"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
           <rect
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1"
              id="rect4292"
              width="5"
              height="23.535534"
              x="105"
              y="178.92822" />
           <rect
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1"
              id="rect4294"
              width="25"
              height="5"
@@ -437,37 +482,38 @@
         </g>
         <g
            id="g4296"
-           transform="translate(70,50)">
+           transform="translate(70,50)"
+           style="fill:#ff6600;fill-opacity:1">
           <rect
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1"
              id="rect4298"
              width="5"
              height="5"
              x="120"
              y="177.36218" />
           <rect
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1"
              id="rect4300"
              width="5"
              height="15"
              x="120"
              y="187.36218" />
           <rect
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1"
              id="rect4302"
              width="25"
              height="5"
              x="120"
              y="197.36218" />
           <rect
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1"
              id="rect4304"
              width="22.5"
              height="5"
              x="122.5"
              y="177.36218" />
           <rect
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1"
              id="rect4306"
              width="5"
              height="35"
@@ -479,48 +525,49 @@
              height="5"
              width="25"
              id="rect4308"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
         </g>
         <g
            transform="translate(140,50)"
-           id="g4310">
+           id="g4310"
+           style="fill:#ff6600;fill-opacity:1">
           <rect
              y="177.36218"
              x="85"
              height="5"
              width="5"
              id="rect4312"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
           <rect
              y="187.36218"
              x="85"
              height="15"
              width="5"
              id="rect4314"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
           <rect
              y="197.36218"
              x="85"
              height="5"
              width="25"
              id="rect4316"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
           <rect
              y="177.36218"
              x="88"
              height="5"
              width="22"
              id="rect4318"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
           <rect
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1"
              id="rect4320"
              width="20"
              height="5"
              x="90"
              y="187.36218" />
           <rect
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1"
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1"
              id="rect4322"
              width="5"
              height="5"
@@ -529,21 +576,22 @@
         </g>
         <g
            transform="translate(-160,90)"
-           id="g5013">
+           id="g5013"
+           style="fill:#ff6600;fill-opacity:1">
           <rect
              y="177.36218"
              x="85"
              height="5"
              width="25"
              id="rect5015"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
           <rect
              y="187.36218"
              x="85"
              height="15"
              width="5"
              id="rect5017"
-             style="fill:#ff4d00;fill-opacity:1;stroke:none;stroke-opacity:1" />
+             style="fill:#ff6600;fill-opacity:1;stroke:none;stroke-opacity:1" />
         </g>
       </g>
     </g>

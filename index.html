@@ -4,33 +4,32 @@
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
-    <script>
-	    $(function(){
-
-		    $("#typed").typed({
-			    strings: ["coded image"],
-			    typeSpeed: 30,
-          callback: function(){
-          shift();
-          }
-		    });
-
-	    });
-    </script>    
     <title>coded image</title>
   </head>
   <body>
     <div class="wrapper">
       <header>
         <div class="logo">
-          <div class="logo-text element">coded image</div>
+          <span class="type-it"></span>
         </div>
         <!-- <nav class="nav">
           <a class="nav-link" href="./">Home</a>
           <a class="nav-link" href="./work">Work</a>
-          <a class="nav-link" href="./contact">Contact</a> -->
-        </nav>
+          <a class="nav-link" href="./contact">Contact</a>
+        </nav> -->
       </header>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/4.3.0/typeit.min.js"></script>
+    <script>
+      $('.type-it').typeIt({
+        strings: ['coded image'],
+        callback: function() {
+          $('.type-it').find('.ti-cursor').addClass('is-hidden');
+        }
+      });
+    </script>
+
   </body>
 </html>

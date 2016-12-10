@@ -9,7 +9,9 @@
   </head>
   <body>
     <header class="header">
-      <div class="logo logoMed">coded image</div>
+      <div class="logo logoMed">
+        <span class="type-it"></span>
+      </div>
     </header>
     <div class="wrapperGray">
 
@@ -40,5 +42,16 @@
         </div>
       </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/4.3.0/typeit.min.js"></script>
+    <script>
+      $('.type-it').typeIt({
+        strings: ['coded image'],
+        callback: function() {
+          $('.type-it').find('.ti-cursor').addClass('is-hidden');
+        }
+      });
+    </script>
   </body>
 </html>

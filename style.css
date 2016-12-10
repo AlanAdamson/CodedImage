@@ -47,7 +47,7 @@ html, body {
 }
 
 .boxLabel {
-  background-color: #FA8800;
+  background-color: #FF6600;
   width: 120px;
   margin: 20px 0 0 190px;
   padding: 3px 0 3px 7px;
@@ -55,7 +55,7 @@ html, body {
   box-shadow: 0 0 7px #886800;
   font-family: 'Arial', sans-serif;
   font-size: .75em;
-  color: #886800;
+  color: #541633;
 }
 
 .workDesc {
@@ -95,24 +95,32 @@ html, body {
     flex-direction: column;
   }
 }
+
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s 10s;
     -moz-animation: blink 0.7s 10s;
     animation: blink 0.7s 10s;
 }
+
 @keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
 @-webkit-keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
 @-moz-keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+
+.is-hidden {
+  display: none !important;
 }
