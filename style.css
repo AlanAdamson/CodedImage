@@ -100,6 +100,7 @@ html, body {
 }
 
 .workDescrip {
+  display: none;
   width: 290px;
   height: 65px;
   padding: 0 0 0 10px; color: #999;
@@ -107,6 +108,10 @@ html, body {
   margin: 0;
   position: absolute;
   z-index: 40;
+}
+
+.portfolioBox:hover .workDescrip {
+ display: block; 
 }
 
 .singleBoxWrap {
