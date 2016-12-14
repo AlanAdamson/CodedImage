@@ -103,11 +103,13 @@ html, body {
   display: none;
   width: 290px;
   height: 65px;
-  padding: 0 0 0 10px; color: #999;
+  padding: 0 0 0 10px;
+  color: #999;
   font-family: 'Arial', sans-serif;
   margin: 0;
   position: absolute;
   z-index: 40;
+  background-color: rgba(204, 204, 204, 0.5)
 }
 
 .portfolioBox:hover .workDescrip {
