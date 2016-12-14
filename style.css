@@ -150,6 +150,10 @@ html, body {
   .contentWrap {
     flex-direction: column;
   }
+  .workDescrip {
+    display: block; 
+  }
+  
 }
 
 .typed-cursor{
