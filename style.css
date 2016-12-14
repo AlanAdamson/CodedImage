@@ -104,6 +104,7 @@ html, body {
   margin: 0;
   position: absolute;
   z-index: 40;
+  align-items: flex-end;
 }
 
 .singleBoxWrap {
