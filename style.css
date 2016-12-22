@@ -5,13 +5,13 @@ html, body {
 }
 
 .wrapper{
-  /*display: flex;*/
-  /*align-items: center;*/
-  /*justify-content: center;*/
-  /*height: 100vh;
-  width: 100vw;*/
-  /*background-color: #541633;*/
-  /*flex-wrap: wrap;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #541633;
+  flex-wrap: wrap;
 }
 
 .wrapperGray {
@@ -113,7 +113,7 @@ html, body {
 }
 
 .portfolioBox:hover .workDescrip {
- display: block; 
+ display: block;
 }
 
 .singleBoxWrap {
@@ -151,9 +151,9 @@ html, body {
     flex-direction: column;
   }
   .workDescrip {
-    display: block; 
+    display: block;
   }
-  
+
 }
 
 .typed-cursor{
