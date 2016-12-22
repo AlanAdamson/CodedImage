@@ -65,6 +65,9 @@ html, body {
   border: 5px solid #999;
   box-shadow: inset 0 0 15px 0 #000;
   /*margin: 15px;*/
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
 }
 
 .portfolioBoxShadow {
@@ -85,7 +88,7 @@ html, body {
 .boxLabel {
   background-color: #FF6600;
   width: 120px;
-  margin: 20px 0 0 190px;
+  margin: -110px 0 0 190px;
   padding: 3px 0 3px 7px;
   border: 1px solid #541633;
   box-shadow: 0 0 7px #541633;
@@ -97,11 +100,20 @@ html, body {
 }
 
 .workDescrip {
+  display: none;
   width: 290px;
   height: 65px;
-  padding: 0 0 0 10px; color: #999;
+  padding: 0 0 0 10px;
+  color: #541633;
   font-family: 'Arial', sans-serif;
   margin: 0;
+  position: absolute;
+  z-index: 40;
+  background-color: rgba(204, 204, 204, 0.5)
+}
+
+.portfolioBox:hover .workDescrip {
+ display: block;
 }
 
 .singleBoxWrap {
@@ -138,6 +150,10 @@ html, body {
   .contentWrap {
     flex-direction: column;
   }
+  .workDescrip {
+    display: block;
+  }
+
 }
 
 .typed-cursor{
