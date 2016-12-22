@@ -21,6 +21,10 @@ app.get('/work/style.css', function(req, res) {
     res.sendFile(path.join(__dirname + '/style.css'));
 });
 
+app.get('/work/images/backItAll.png', function(req, res) {
+    res.sendFile(path.join(__dirname + '/work/images/backItAll.png'));
+});
+
 
 app.listen(process.env.PORT || 3000, function(){
   console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
