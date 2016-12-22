@@ -114,6 +114,12 @@ html, body {
 
 .portfolioBox:hover .workDescrip {
  display: block; 
+  width: 290px;
+  height: 65px;
+  padding: 0 0 0 10px;
+  color: #999;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
 }
 
 .singleBoxWrap {
