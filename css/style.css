@@ -1,0 +1,258 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #541633;
+}
+
+container {
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  display: flex;
+  /*flex-direction: row;*/
+  margin: 100px 0 0 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  font-family: 'Special Elite', 'Arial', sans-serif;
+  color: #FF6600;
+  font-size: 6em;
+  font-weight: normal;
+}
+
+.logoMed {
+  font-size: 4em;
+  font-weight: normal;
+  float: left;
+  /*-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.25);*/
+}
+
+.nav {
+  margin: 0 300px 0 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #369;
+  padding: 15px;
+  font: 1.5em 'Arial';
+}
+
+ui-view {
+  display: flex;
+  flex-direction: column;
+  /*position: absolute;*/
+  align-items: center;
+}
+
+main {
+  /*margin-top: 0;
+  margin-bottom: auto;*/
+  /*padding: 25px 25px 0 25px;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*width: 700px;*/
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+}
+
+.tagline {
+  font-size: 1.25em;
+  font-family: 'Arial', sans-serif;
+  color: #30B577;
+  color: #4D0026;
+  color: #33001A;
+  color: #330001;
+  color: #000;
+  /*font-weight: bold;*/
+  font-style: italic;
+  font-weight: bold;
+  margin: -40px 0 0 100px;
+  position: absolute;
+}
+
+.myName {
+  font-size: 2em;
+  font-family: 'Arial', sans-serif;
+  /*font-weight: bold;*/
+  color: #369;
+}
+
+.profilePic{
+  width: 20%;
+  height: 20%;
+}
+
+.portfolioBox {
+  width: 300px;
+  height: 150px;
+  border: 5px solid #999;
+  box-shadow: inset 0 0 15px 0 #000;
+  /*margin: 15px;*/
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+
+.portfolioBoxShadow {
+  width: 300px;
+  height: 150px;
+  box-shadow: inset 0 0 15px 0 #000;
+  position: absolute;
+  z-index: 80;
+}
+
+.portfolioBox img {
+  width: 300px;
+  height: 150px;
+  position: absolute;
+  z-index: 10;
+}
+
+.boxLabel {
+  background-color: #FF6600;
+  width: 120px;
+  margin: -110px 0 0 190px;
+  padding: 3px 0 3px 7px;
+  border: 1px solid #541633;
+  box-shadow: 0 0 7px #541633;
+  font-family: 'Arial', sans-serif;
+  font-size: .75em;
+  color: #541633;
+  position: absolute;
+  z-index: 100;
+}
+
+.workDescrip {
+  display: none;
+  width: 290px;
+  height: 65px;
+  padding: 0 0 0 10px;
+  color: #541633;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  position: absolute;
+  z-index: 40;
+  background-color: rgba(204, 204, 204, 0.5)
+}
+
+.portfolioBox:hover .workDescrip {
+ display: block;
+}
+
+.singleBoxWrap {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 25px 0 25px;
+  height: 250px;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #541633;
+  margin: 30px 0 20px 0;
+  /*box-shadow: 0 0 20px #000;*/
+  align-items: center;
+}
+
+/*.logoMed::before {
+  text-shadow: 2px 2px 0 #ffffff;
+}*/
+
+@media screen and (max-width: 630px) {
+  /*.singleBoxWrap {
+    display: flex;
+    flex-direction: column;
+  }*/
+
+  .logoMed, .logo {
+    min-width: 500px;
+  }
+
+  .contentWrap {
+    flex-direction: column;
+  }
+  .workDescrip {
+    display: block;
+  }
+
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s 10s;
+    -moz-animation: blink 0.7s 10s;
+    animation: blink 0.7s 10s;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.is-hidden {
+  display: none !important;
+}
+
+.bold {
+  font-weight: bolder;
+  color: #000;
+}
+
+.ti-container {
+  white-space: nowrap;
+}
+
+.boxBorder {
+  /*display: flex;
+  align-items: center;
+  justify-content: center;*/
+  /*margin: 0 0 0 50px;*/
+  padding: 5px;
+  border: 1px solid #fff;
+  /*width: 61vw;
+  height: 72vh;*/
+  /*display: flex;
+  align-items: center;
+  justify-content: center;*/
+  /*display: inline-block;*/
+  opacity: 0.15;
+  filter: alpha(opacity=10);
+  /*position: absolute;*/
+}
+
+.transparentBox {
+  background-color: #333;
+  border: 1px solid #999;
+  /*padding: 5px;*/
+  /*opacity: 0.10;
+  filter: alpha(opacity=10);*/
+  width: 90vw;
+  height: 70vh;
+  /*width: 800px;
+  height: 300px;*/
+}
