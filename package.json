@@ -2,10 +2,10 @@
   "name": "codedimage",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.html"
   },
   "repository": {
     "type": "git",
