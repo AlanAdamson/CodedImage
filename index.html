@@ -1,35 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="mainApp">
   <head>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
     <title>coded image</title>
   </head>
-  <body>
-    <div class="wrapper">
+  <body ng-controller="mainCtrl">
+
+    <container>
       <header>
         <div class="logo">
           <span class="type-it"></span>
         </div>
+
         <!-- <nav class="nav">
-          <a class="nav-link" href="./">Home</a>
-          <a class="nav-link" href="./work">Work</a>
-          <a class="nav-link" href="./contact">Contact</a>
+          <a ui-sref="home">Home</a>
+          <a ui-sref="connect">Connect</a>
         </nav> -->
       </header>
-    </div>
 
-    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/4.3.0/typeit.min.js"></script>
-    <script>
-      $('.type-it').typeIt({
-        strings: ['coded image'],
-        callback: function() {
-          $('.type-it').find('.ti-cursor').addClass('is-hidden');
-        }
-      });
-    </script>
+      <ui-view></ui-view>
 
+  		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js" charset="utf-8"></script>
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/4.3.0/typeit.min.js"></script>
+
+  		<script src="./controllers/app.js"></script>
+  		<script src="./controllers/mainCtrl.js"></script>
+  		<script src="./controllers/mainServ.js"></script>
+      <script src="./js/jQuery.js"></script>
+
+    </container>
   </body>
 </html>
