@@ -276,11 +276,11 @@ hr {
   display: flex;
   flex-direction: row;
   width: 100vw;
-  align-items: center;
+  justify-content: center;
 }
 
 .connectLink {
   padding: 0 25px 0 0;
   display: flex;
-  justify-content: center;
+  align-items: center;
 }
