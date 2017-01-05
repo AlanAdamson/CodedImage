@@ -76,7 +76,9 @@ a {
 }
 
 hr {
- width: 500px; 
+  width: 500px;
+  height: 1px;
+  margin: 25px;
 }
 
 .tagline {
@@ -269,4 +271,10 @@ hr {
   height: 70vh;
   /*width: 800px;
   height: 300px;*/
+}
+
+.connect {
+  display: flex;
+  flex-direction: row;
+  padding: 0 25px 0 0;
 }
