@@ -56,7 +56,7 @@ main {
   margin-bottom: auto;*/
   /*padding: 25px 25px 0 25px;*/
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   /*width: 700px;*/
   flex-wrap: wrap;
