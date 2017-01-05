@@ -276,7 +276,7 @@ hr {
   display: flex;
   flex-direction: row;
   width: 100vw;
-  justify-content: center;
+  align-items: center;
 }
 
 .connectLink {
