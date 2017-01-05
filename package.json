@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.html"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,6 @@
   "dependencies": {
     "express": "^4.14.0",
     "jquery": "^3.1.1"
+    "ejs": "~2.5.5",
   }
 }
