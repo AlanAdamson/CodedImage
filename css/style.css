@@ -276,5 +276,8 @@ hr {
 .connect {
   display: flex;
   flex-direction: row;
+}
+
+.connectLink {
   padding: 0 25px 0 0;
 }
