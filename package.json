@@ -19,7 +19,7 @@
   "homepage": "https://github.com/AlanAdamson/codedimage#readme",
   "dependencies": {
     "express": "^4.14.0",
-    "jquery": "^3.1.1"
-    "ejs": "~2.5.5",
+    "jquery": "^3.1.1",
+    "ejs": "~2.5.5"
   }
 }
