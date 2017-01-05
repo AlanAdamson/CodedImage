@@ -284,3 +284,7 @@ hr {
   display: flex;
   align-items: center;
 }
+
+.connectLink span {
+  margin: 5px; 
+}
