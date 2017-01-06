@@ -67,7 +67,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .profileDesc {
@@ -77,6 +77,7 @@ main {
 .profileRight {
   display: flex;
   flex-direction: column;
+  padding: 0 0 0 25px;
 }
   
 a {
