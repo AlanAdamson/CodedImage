@@ -21,7 +21,7 @@ header {
 
 .logo {
   font-family: 'Special Elite', 'Arial', sans-serif;
-  color: #FF6600;
+  color: #ff6600;
   font-size: 6em;
   font-weight: normal;
 }
@@ -84,7 +84,7 @@ main {
   
 a {
   text-decoration: none;
-  color: #999;
+  color: #ff6600;
 }
 
 hr {
@@ -145,7 +145,7 @@ hr {
 }
 
 .boxLabel {
-  background-color: #FF6600;
+  background-color: #ff6600;
   width: 120px;
   margin: -110px 0 0 190px;
   padding: 3px 0 3px 7px;
