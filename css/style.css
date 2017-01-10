@@ -3,7 +3,7 @@ html, body {
   padding: 0;
   background-color: #541633;
   font-family: 'Arial', sans-serif;
-  color: #999;
+  color: #000;
 }
 
 container {
@@ -84,8 +84,12 @@ main {
   
 a {
   text-decoration: none;
-  color: #333;
+  color: #999;
 }
+
+a:hover {
+  color: #ccc;
+}  
 
 hr {
   width: 500px;
