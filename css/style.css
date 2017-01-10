@@ -303,3 +303,11 @@ hr {
 .connectLink span {
   margin: 5px; 
 }
+
+svg {
+  fill: #999;
+}
+
+svg:hover {
+  fill: #ccc;
+}
