@@ -189,11 +189,11 @@ hr {
   text-shadow: 2px 2px 0 #ffffff;
 }*/
 
-/* @media screen and (max-width: 630px) {
-  /*.singleBoxWrap {
+@media screen and (max-width: 630px) {
+  .singleBoxWrap {
     display: flex;
     flex-direction: column;
-  }*/
+  }
 
   .logoMed, .logo {
     min-width: 500px;
@@ -206,7 +206,7 @@ hr {
     display: block;
   }
 
-} */
+}
 
 .typed-cursor{
     opacity: 1;
