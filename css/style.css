@@ -72,11 +72,11 @@ a {
 }
 
 a:hover {
-  color: #FF751A;
+  color: #F80;
 }
 
 a:hover > svg {
-  fill: #FF751A;
+  fill: #F80;
 }
 
 hr {
