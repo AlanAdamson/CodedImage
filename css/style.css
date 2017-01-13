@@ -4,9 +4,6 @@ html, body {
   background-color: #541633;
   font-family: 'Arial', sans-serif;
   color: #000;
-}
-
-container {
   height: 100vh;
   width: 100vw;
 }
@@ -51,6 +48,8 @@ ui-view {
   /*position: absolute;*/
   align-items: center;
   justify-content: center;
+  height: calc(100vh-75px);
+  margin-bottom: -75px;
 }
 
 main {
@@ -307,4 +306,8 @@ hr {
 
 svg {
   fill: #999;
+}
+
+footer {
+  height: 75px;
 }
