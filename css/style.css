@@ -189,7 +189,7 @@ hr {
   text-shadow: 2px 2px 0 #ffffff;
 }*/
 
-@media screen and (min-width: 630px) {
+@media screen and (max-width: 630px) {
   .singleBoxWrap {
     display: flex;
     flex-direction: column;
