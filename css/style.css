@@ -4,8 +4,8 @@ html, body {
   background-color: #541633;
   font-family: 'Arial', sans-serif;
   color: #000;
-  height: 100vh;
-  width: 100vw;
+/*   height: 100vh; */
+/*   width: 100vw; */
 }
 
 header {
@@ -48,7 +48,7 @@ ui-view {
   /*position: absolute;*/
   align-items: center;
   justify-content: center;
-  height: calc(100vh-75px);
+  height: calc(100vh-200px);
   margin-bottom: -75px;
 }
 
@@ -203,7 +203,7 @@ hr {
   text-shadow: 2px 2px 0 #ffffff;
 }*/
 
-@media screen and (max-width: 630px) {
+/* @media screen and (max-width: 630px) {
   /*.singleBoxWrap {
     display: flex;
     flex-direction: column;
@@ -220,7 +220,7 @@ hr {
     display: block;
   }
 
-}
+} */
 
 .typed-cursor{
     opacity: 1;
