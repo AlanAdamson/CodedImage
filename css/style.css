@@ -221,6 +221,10 @@ hr {
   .myName {
     font-size: 8vw;
   }
+  
+  .profilePic {
+    width: 35vw;
+  }
     
 }
 
