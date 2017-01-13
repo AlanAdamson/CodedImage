@@ -3,7 +3,7 @@ html, body {
   padding: 0;
   background-color: #541633;
   font-family: 'Arial', sans-serif;
-  color: #000;
+  color: #999;
 /*   height: 100vh; */
 /*   width: 100vw; */
 }
@@ -11,14 +11,14 @@ html, body {
 header {
   display: flex;
   /*flex-direction: row;*/
-  margin: 100px 0 0 0;
+  margin: 100px 0 40px 0;
   align-items: center;
   justify-content: center;
 }
 
 .logo {
   font-family: 'Special Elite', 'Arial', sans-serif;
-  color: #ff6600;
+  color: #f60;
   font-size: 6em;
   font-weight: normal;
 }
@@ -71,7 +71,7 @@ main {
 }
 
 .profileDesc {
-  
+  margin: 0 0 0 7px;
 }
 
 .profileRight {
@@ -83,15 +83,15 @@ main {
   
 a {
   text-decoration: none;
-  color: #999;
-}
-
-a:hover {
   color: #ccc;
 }
 
+a:hover {
+  color: #fff;
+}
+
 a:hover > svg {
-  fill: #ccc;
+  fill: #fff;
 }
 
 hr {
@@ -115,10 +115,9 @@ hr {
 }
 
 .myName {
-  font-size: 2em;
+  font-size: 2.5em;
   font-family: 'Lobster', 'Arial', sans-serif;
-  /*font-weight: bold;*/
-  color: #369;
+  margin: 0;
 }
 
 .profilePic {
