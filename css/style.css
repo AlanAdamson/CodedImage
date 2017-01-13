@@ -48,7 +48,7 @@ ui-view {
   /*position: absolute;*/
   align-items: center;
   justify-content: center;
-  height: calc(100vh-200px);
+  height: calc(100vh - 200px);
   margin-bottom: -75px;
 }
 
