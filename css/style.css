@@ -195,8 +195,8 @@ hr {
     flex-direction: column;
   }
 
-  .logoMed, .logo {
-    min-width: 500px;
+  .logo {
+    font-size: 4em;
   }
 
   .contentWrap {
@@ -210,7 +210,23 @@ hr {
     flex-direction: column;
   }
 
+  .profileRight {
+    padding: 0px;
+  }
+
+  hr {
+    width: 90vw;
+  }
+    
 }
+
+@media screen and (max-width: 400px) {
+  
+  .logoMed, .logo {
+    font-size: 3em;
+  }
+  
+ }
 
 .typed-cursor{
     opacity: 1;
