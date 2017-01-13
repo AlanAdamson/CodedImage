@@ -86,10 +86,13 @@ a {
   color: #999;
 }
 
+a:hover {
+  color: #ccc;
+}
+
 a:hover > svg {
   fill: #ccc;
-  color: #ccc;
-}  
+}
 
 hr {
   width: 500px;
