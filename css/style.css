@@ -87,7 +87,8 @@ a {
   color: #999;
 }
 
-a:hover {
+a:hover > svg {
+  fill: #ccc;
   color: #ccc;
 }  
 
@@ -306,8 +307,4 @@ hr {
 
 svg {
   fill: #999;
-}
-
-svg:hover {
-  fill: #ccc;
 }
