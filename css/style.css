@@ -196,7 +196,7 @@ hr {
   }
 
   .logo {
-    font-size: 4em;
+    font-size: 12vw;
   }
 
   .contentWrap {
@@ -217,16 +217,12 @@ hr {
   hr {
     width: 90vw;
   }
+  
+  .myName {
+    font-size: 8vw;
+  }
     
 }
-
-@media screen and (max-width: 400px) {
-  
-  .logoMed, .logo {
-    font-size: 3em;
-  }
-  
- }
 
 .typed-cursor{
     opacity: 1;
