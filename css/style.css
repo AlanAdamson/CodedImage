@@ -181,6 +181,11 @@ hr {
   align-items: center;
 }
 
+.contentWrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /*.logoMed::before {
   text-shadow: 2px 2px 0 #ffffff;
 }*/
