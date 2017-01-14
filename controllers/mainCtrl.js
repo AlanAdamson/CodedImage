@@ -7,7 +7,7 @@ angular.module('mainApp').controller('mainCtrl', function($scope, mainServ, $loc
   function getLocal(local) {
     console.log('local: ' + local);
     console.log('local cut: ' + local.slice(1, local.length + 1);
-    return local.substr(0, local.slice(1, local.length + 1);
+    return local.slice(1, local.length + 1);
   }
 
 });
