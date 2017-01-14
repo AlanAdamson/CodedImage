@@ -7,9 +7,8 @@ app.set('view engine', 'ejs');
 
 app.use(express.static(__dirname + '/'));
 
-app.get('/', function(req, res) {
-
-    res.render('index.html');
+app.all('/*', function(req, res) {
+    res.sendfile('index.html');
 });
 
 app.listen(port, function() {
