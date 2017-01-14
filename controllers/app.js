@@ -28,12 +28,11 @@ angular.module('mainApp', ['ui.router'])
   })
   
   .state('404', {
-    url: '/404',
     templateUrl: './views/404.html'
   });
 
   $urlRouterProvider.otherwise(function ($injector, $location) {
-    $injector.invoke(['$state', function ($state) { $state.templateUrl('./views/404.html'); }]);
+    $injector.invoke(['$state', function ($state) { $state('404'); }]);
     return true;
   });
 
