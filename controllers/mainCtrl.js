@@ -2,6 +2,6 @@ angular.module('mainApp').controller('mainCtrl', function($scope, mainServ, $loc
 
   $scope.test = "working";
 
-  $scope.currentURL = $location.url().lastIndexOf('/');
+  $scope.currentURL = $location.url.substring(url.lastIndexOf('/')+1);
 
 });
