@@ -14,7 +14,7 @@ app.use(express.static(__dirname + '/'));
 
 app.get(url,[params])
     .success(function(data, status, headers, config){
-        // bind your data to scope
+        res.render('index.html');
     })
     .error(function(data, status, headers, config) {
         $location.url('/404');
