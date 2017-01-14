@@ -23,6 +23,10 @@ header {
   font-weight: normal;
 }
 
+.logoFont {
+  font-family: 'Special Elite', 'Arial', sans-serif;
+}
+
 .nav {
   margin: 0 300px 0 0;
 }
