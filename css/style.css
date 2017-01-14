@@ -11,7 +11,7 @@ html, body {
 header {
   display: flex;
   /*flex-direction: row;*/
-  margin: 10% 0 40px 0;
+  margin: 25px 0 25px 0;
   align-items: center;
   justify-content: center;
 }
@@ -61,7 +61,7 @@ ui-view {
   padding: 0 0 0 25px;
   align-content: space-around;
 }
-  
+
 a {
   text-decoration: none;
   color: #F60;
@@ -191,15 +191,15 @@ hr {
 }*/
 
 @media screen and (max-width: 1096px) {
-  
+
   .contentWrap {
     max-width: 720px;
   }
-  
+
 }
 
 @media screen and (max-width: 630px) {
-  
+
   .singleBoxWrap {
     display: flex;
     flex-direction: column;
@@ -212,11 +212,11 @@ hr {
   .contentWrap {
     flex-direction: column;
   }
-  
+
   .workDescrip {
     display: block;
   }
-  
+
   .profile {
     flex-direction: column;
   }
@@ -229,15 +229,15 @@ hr {
   hr {
     width: 90vw;
   }
-  
+
   .myName {
     font-size: 2em;
   }
-  
+
   .profilePic {
     width: 150px;
   }
-    
+
 }
 
 .typed-cursor{
@@ -322,7 +322,7 @@ hr {
 }
 
 .connectLink span {
-  margin: 5px; 
+  margin: 5px;
 }
 
 svg {
