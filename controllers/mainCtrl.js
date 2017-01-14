@@ -1,4 +1,4 @@
-angular.module('mainApp').controller('mainCtrl', function($scope, mainServ){
+angular.module('mainApp').controller('mainCtrl', function($scope, mainServ, $location){
 
   $scope.test = "working";
 
