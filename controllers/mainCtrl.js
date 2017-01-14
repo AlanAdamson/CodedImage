@@ -6,8 +6,8 @@ angular.module('mainApp').controller('mainCtrl', function($scope, mainServ, $loc
   $scope.currentURL = getLocal(local);
   function getLocal(local) {
     console.log('local: ' + local);
-    console.log('local cut: ' + local.substr(0, local.length - 1));
-    return local.substr(0, path.length - 1);
+    console.log('local cut: ' + local.slice(1, local.length + 1);
+    return local.substr(0, local.slice(1, local.length + 1);
   }
 
 });
