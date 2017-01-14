@@ -33,7 +33,7 @@ angular.module('mainApp', ['ui.router'])
   });
 
   $urlRouterProvider.otherwise(function ($injector, $location) {
-    $injector.invoke(['$state', function ($state) { $state.go('404'); }]);
+    $injector.invoke(['$state', function ($state) { $state.templateUrl('./views/404.html'); }]);
     return true;
   });
 
