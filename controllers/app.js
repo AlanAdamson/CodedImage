@@ -12,12 +12,12 @@ angular.module('mainApp', ['ui.router'])
     }
   })
 
-  .state('connect', {
-    url: '/connect',
-    templateUrl: './views/connect.html'
+  .state('about', {
+    url: '/about',
+    templateUrl: './views/about.html'
   });
 
-  $urlRouterProvider.otherwise('/');
+  $urlRouterProvider.otherwise('/about');
 
   // $locationProvider.html5Mode(true);
 
