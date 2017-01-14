@@ -7,10 +7,18 @@ app.set('view engine', 'ejs');
 
 app.use(express.static(__dirname + '/'));
 
-app.get('/', function(req, res) {
+// app.get('/', function(req, res) {
 
-    res.render('index.html');
-});
+//     res.render('index.html');
+// });
+
+app.get(url,[params])
+    .success(function(data, status, headers, config){
+        // bind your data to scope
+    })
+    .error(function(data, status, headers, config) {
+        $location.url('/404');
+    });
 
 app.listen(port, function() {
     console.log('Listening on port: ' + port);
