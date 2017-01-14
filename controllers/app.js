@@ -19,6 +19,9 @@ angular.module('mainApp', ['ui.router'])
 
   $urlRouterProvider.otherwise('/about');
 
-  $locationProvider.html5Mode(true);
+  $locationProvider.html5Mode({
+    enabled: true,
+    requireBase: false
+  });
 
 });
