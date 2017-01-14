@@ -189,6 +189,7 @@ hr {
 /*.logoMed::before {
   text-shadow: 2px 2px 0 #ffffff;
 }*/
+
 @media screen and (max-width: 1096px) {
   
   .contentWrap {
@@ -196,6 +197,7 @@ hr {
   }
   
 }
+
 @media screen and (max-width: 630px) {
   
   .singleBoxWrap {
@@ -210,6 +212,7 @@ hr {
   .contentWrap {
     flex-direction: column;
   }
+  
   .workDescrip {
     display: block;
   }
