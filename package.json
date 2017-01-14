@@ -1,8 +1,8 @@
 {
   "name": "codedimage",
   "version": "1.0.0",
-  "description": "<img src=\"https://devmounta.in/img/logowhiteblue.png\" width=\"250\" align=\"right\">",
-  "main": "index.js",
+  "description": "",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
@@ -19,6 +19,8 @@
   "homepage": "https://github.com/AlanAdamson/codedimage#readme",
   "dependencies": {
     "express": "^4.14.0",
-    "jquery": "^3.1.1"
+    "jquery": "^3.1.1",
+    "ui-router-core": "2.0.0",
+    "ejs": "~2.5.5"
   }
 }
