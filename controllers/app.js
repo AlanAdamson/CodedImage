@@ -4,13 +4,10 @@ angular.module('mainApp', ['ui.router'])
 
   $stateProvider
 
-//   .state('home', {
-//     url: '/',
-//     templateUrl: './views/home.html',
-//     data: {
-//       css: '../css/style.css'
-//     }
-//   })
+  .state('about', {
+    url: '/',
+    templateUrl: './views/about.html'
+  })
 
   .state('about', {
     url: '/about',
