@@ -4,7 +4,7 @@ angular.module('mainApp', ['ui.router'])
 
   $stateProvider
 
-  .state('about', {
+  .state('home', {
     url: '/',
     templateUrl: './views/about.html'
   })
@@ -19,7 +19,7 @@ angular.module('mainApp', ['ui.router'])
     templateUrl: './views/404.html'
   });
 
-  $urlRouterProvider.otherwise('/404');
+  $urlRouterProvider.otherwise('/');
 
   $locationProvider.html5Mode(true);
 
