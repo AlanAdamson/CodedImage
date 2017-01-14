@@ -11,7 +11,7 @@ html, body {
 header {
   display: flex;
   /*flex-direction: row;*/
-  margin: 100px 0 40px 0;
+  margin: 10% 0 40px 0;
   align-items: center;
   justify-content: center;
 }
@@ -198,7 +198,7 @@ hr {
   }
 
   .logo {
-    font-size: 12vw;
+    font-size: 3em;
   }
 
   .contentWrap {
@@ -214,6 +214,7 @@ hr {
 
   .profileRight {
     padding: 0px;
+    align-items: center;
   }
 
   hr {
@@ -221,11 +222,11 @@ hr {
   }
   
   .myName {
-    font-size: 8vw;
+    font-size: 2em;
   }
   
   .profilePic {
-    width: 35vw;
+    width: 150px;
   }
     
 }
