@@ -23,14 +23,6 @@ header {
   font-weight: normal;
 }
 
-.logoMed {
-  font-size: 4em;
-  font-weight: normal;
-  float: left;
-  /*-webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgba(255, 255, 255, 0.25);*/
-}
-
 .nav {
   margin: 0 300px 0 0;
 }
@@ -45,6 +37,7 @@ header {
 ui-view {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   height: calc(100vh - 400px);
   min-height: 400px;
 }
