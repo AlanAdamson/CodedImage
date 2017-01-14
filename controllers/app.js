@@ -7,7 +7,9 @@ angular.module('mainApp', ['ui.router'])
   .state('home', {
     url: '/',
     templateUrl: './views/home.html',
-    redirectTo: 'about'
+    onEnter: function($state) {
+      $state.go('about');
+    },
   })
 
   .state('about', {
@@ -26,14 +28,5 @@ angular.module('mainApp', ['ui.router'])
   });
 
   $locationProvider.html5Mode(true);
-  
-  .run(['$rootScope', '$state', function($rootScope, $state) {
-
-    $rootScope.$on('$stateChangeStart', function(evt, to, params) {
-      if (to.redirectTo) {
-        evt.preventDefault();
-        $state.go(to.redirectTo, params, {location: 'replace'})
-      }
-    });
   
 });
