@@ -173,7 +173,7 @@ hr {
 
 .singleBoxWrap {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding: 25px;
 /*   height: 250px;
   margin: 0; */
