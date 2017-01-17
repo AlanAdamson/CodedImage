@@ -34,7 +34,7 @@ header {
 }
 
 .nav {
-  margin: 0 300px 0 0;
+  margin: 0 0 0 50px;
 }
 
 .nav a {
@@ -108,7 +108,8 @@ hr {
   font-family: 'Lobster', 'Arial', sans-serif;
   margin: 0;
 /*   color: #933; */
-  color: #FF3D3D;
+/*   color: #FF3D3D; */
+  color: #f00;
 }
 
 .profilePic {
