@@ -39,7 +39,7 @@ header {
 
 .nav a {
   text-decoration: none;
-  color: #f60;
+  color: #369;
   padding: 15px;
   font: 1.5em 'Arial';
 }
@@ -72,15 +72,15 @@ ui-view {
 
 a {
   text-decoration: none;
-  color: #F60;
+  color: #369;
 }
 
 a:hover {
-  color: #F80;
+  color: #4080BF;
 }
 
 a:hover > svg {
-  fill: #F80;
+  fill: #4080BF;
 }
 
 hr {
@@ -141,7 +141,7 @@ hr {
 }
 
 .boxLabel {
-  background-color: #ff6600;
+  background-color: #f60;
   width: 120px;
   margin: -110px 0 0 190px;
   padding: 3px 0 3px 7px;
@@ -334,7 +334,7 @@ hr {
 }
 
 svg {
-  fill: #F60;
+  fill: #369;
 }
 
 footer {
