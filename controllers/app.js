@@ -17,9 +17,9 @@ angular.module('mainApp', ['ui.router'])
     templateUrl: './views/about.html'
   })
 
-  .state('works', {
-    url: '/works',
-    templateUrl: './views/work.html'
+  .state('work', {
+    url: '/work',
+    templateUrl: './views/concepts.html'
   })
 
   .state('404', {
@@ -27,7 +27,7 @@ angular.module('mainApp', ['ui.router'])
   });
 
   $urlRouterProvider.otherwise(function ($injector, $location) {
-    $injector.invoke(['$state', function ($state) { $state.go('404'); }]);
+    $injector.invoke(['$state', function ($state) { $state.go('work'); }]);
     return true;
   });
 
