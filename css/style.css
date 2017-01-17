@@ -192,6 +192,7 @@ hr {
 
 .contentWrap {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     max-width: 1080px;
 }
