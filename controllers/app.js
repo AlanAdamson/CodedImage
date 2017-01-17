@@ -17,9 +17,9 @@ angular.module('mainApp', ['ui.router'])
     templateUrl: './views/about.html'
   })
 
-  .state('works', {
-    url: '/works',
-    templateUrl: './views/work.html'
+  .state('work', {
+    url: '/work',
+    templateUrl: './views/works.html'
   })
 
   .state('404', {
