@@ -17,11 +17,6 @@ angular.module('mainApp', ['ui.router'])
     templateUrl: './views/about.html'
   })
 
-  .state('concepts', {
-    url: '/concepts',
-    templateUrl: './views/concepts.html'
-  })
-
   .state('work', {
     url: '/work',
     templateUrl: './views/work.html'
