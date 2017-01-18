@@ -151,7 +151,7 @@ hr {
   box-shadow: 0 0 7px #541633;
   font-family: 'Arial', sans-serif;
   font-size: .75em;
-  color: #541633;
+  color: #000;
   position: absolute;
   z-index: 100;
 }
