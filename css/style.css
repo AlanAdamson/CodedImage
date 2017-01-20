@@ -335,10 +335,6 @@ hr {
   margin: 5px;
 }
 
-svg {
-  fill: #369;
-}
-
 footer {
   display: flex;
   flex-direction: column;
