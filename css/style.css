@@ -23,7 +23,7 @@ header {
 
 .logo {
   font-family: 'Special Elite', 'Arial', sans-serif;
-  color: #f90;
+  color: #f60;
   font-size: 6em;
   font-weight: normal;
   width: 586px;
@@ -39,7 +39,6 @@ header {
 
 .nav a {
   text-decoration: none;
-  color: #369;
   padding: 15px;
   font: 1.5em 'Arial';
 }
