@@ -5,9 +5,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #541633;
+  background-color: #333;
   font-family: 'Arial', sans-serif;
-  color: #999;
+  color: #ccc;
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -23,7 +23,7 @@ header {
 
 .logo {
   font-family: 'Special Elite', 'Arial', sans-serif;
-  color: #882;
+  color: #f90;
   font-size: 6em;
   font-weight: normal;
   width: 586px;
@@ -72,15 +72,16 @@ ui-view {
 
 a {
   text-decoration: none;
-  color: #369;
+  color: #ACB645;
 }
 
-a:hover {
-  color: #39ACAC;
+svg {
+  fill: #ACB645;
 }
 
-a:hover > svg {
-  fill: #39ACAC;
+a:hover, a:hover > svg {
+  color: #ccd38a;
+  fill: #ccd38a;
 }
 
 hr {
@@ -143,12 +144,12 @@ hr {
 }
 
 .boxLabel {
-  background-color: #882;
+  background-color: #ccd38a;
   width: 120px;
   margin: -110px 0 0 190px;
   padding: 3px 0 3px 7px;
-  border: 1px solid #541633;
-  box-shadow: 0 0 7px #541633;
+  border: 1px solid #999;
+  box-shadow: 0 0 10px #000;
   font-family: 'Arial', sans-serif;
   font-size: .75em;
   color: #000;
