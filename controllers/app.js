@@ -27,7 +27,7 @@ angular.module('mainApp', ['ui.router'])
     templateUrl: './views/404.html'
   });
 
-  $urlRouterProvider.otherwise('/404');
+  $urlRouterProvider.otherwise('404');
 
   $locationProvider.html5Mode(true);
 
