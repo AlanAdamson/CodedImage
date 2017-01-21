@@ -23,7 +23,7 @@ angular.module('mainApp', ['ui.router'])
   })
 
   .state('404', {
-    url: '404',
+    url: '/404',
     templateUrl: './views/404.html'
   });
 
