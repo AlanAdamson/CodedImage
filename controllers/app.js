@@ -23,13 +23,11 @@ angular.module('mainApp', ['ui.router'])
   })
 
   .state('404', {
+    url: '404',
     templateUrl: './views/404.html'
   });
 
-  $urlRouterProvider.otherwise(function ($injector, $location) {
-    $injector.invoke(['$state', function ($state) { $state.go('404'); }]);
-    return true;
-  });
+  $urlRouterProvider.otherwise('/404');
 
   $locationProvider.html5Mode(true);
 
