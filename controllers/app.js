@@ -27,7 +27,7 @@ angular.module('mainApp', ['ui.router'])
   });
 
   $urlRouterProvider.otherwise(function ($injector, $location) {
-    $injector.invoke(['$state', function ($state) { $state.go('work'); }]);
+    $injector.invoke(['$state', function ($state) { $state.go('404'); }]);
     return true;
   });
 
