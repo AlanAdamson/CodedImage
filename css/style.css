@@ -26,7 +26,7 @@ header {
   color: #f60;
   font-size: 6em;
   font-weight: normal;
-  width: 586px;
+/*   width: 586px; */
 }
 
 .logoFont {
@@ -173,16 +173,19 @@ hr {
 }
 
 .contentWrap {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 1080px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1080px;
 }
 
 .soon {
-  width: 450px;
+  width: 32%;
   margin: 100px 0 0 25px;
   text-indent: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 /*.logoMed::before {
