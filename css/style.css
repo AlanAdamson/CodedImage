@@ -88,28 +88,11 @@ hr {
   margin: 25px;
 }
 
-.tagline {
-  font-size: 1.25em;
-  font-family: 'Arial', sans-serif;
-  color: #30B577;
-  color: #4D0026;
-  color: #33001A;
-  color: #330001;
-  color: #000;
-  /*font-weight: bold;*/
-  font-style: italic;
-  font-weight: bold;
-  margin: -40px 0 0 100px;
-  position: absolute;
-}
-
 .myName {
   font-size: 2.5em;
   font-family: 'Lobster', 'Arial', sans-serif;
   margin: 0;
-/*   color: #933; */
-/*   color: #FF3D3D; */
-  color: #369;
+  color: #338099;
 }
 
 .profilePic {
