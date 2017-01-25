@@ -4,16 +4,16 @@ angular.module('mainApp', ['ui.router'])
 
   $stateProvider
 
-  .state('home', {
-    url: '/',
-    templateUrl: './views/home.html',
-    onEnter: function($state) {
-      $state.go('about');
-    },
-  })
+//   .state('home', {
+//     url: '/',
+//     templateUrl: './views/home.html',
+//     onEnter: function($state) {
+//       $state.go('about');
+//     },
+//   })
 
   .state('about', {
-    url: '/about',
+    url: '/',
     templateUrl: './views/about.html'
   })
 
