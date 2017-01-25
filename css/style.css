@@ -26,7 +26,7 @@ header {
   color: #f60;
   font-size: 6em;
   font-weight: normal;
-/*   width: 586px; */
+  width: 586px;
 }
 
 .logoFont {
@@ -209,6 +209,7 @@ hr {
 
   .logo {
     font-size: 3em;
+    width: 293px;
   }
 
   .contentWrap {
