@@ -180,8 +180,9 @@ hr {
 }
 
 .soon {
-  width: 500px;
-  margin: 25px;
+  width: 450px;
+  margin: 100px 0 0 25px;
+  text-indent: 25px;
 }
 
 /*.logoMed::before {
