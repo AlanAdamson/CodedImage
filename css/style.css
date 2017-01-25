@@ -196,6 +196,11 @@ hr {
     max-width: 1080px;
 }
 
+.soon {
+  width: 500px;
+  margin: 25px;
+}
+
 /*.logoMed::before {
   text-shadow: 2px 2px 0 #ffffff;
 }*/
