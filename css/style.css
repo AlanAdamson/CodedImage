@@ -239,7 +239,11 @@ hr {
   .profilePic {
     width: 150px;
   }
-
+  
+  .soon {
+    width: 100%;
+  }
+    
 }
 
 .typed-cursor{
