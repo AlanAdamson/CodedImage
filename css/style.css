@@ -222,7 +222,7 @@ hr {
     align-items: center;
   }
 
-  hr {
+  .footer {
     width: 90vw;
   }
 
@@ -237,6 +237,10 @@ hr {
   .soon {
     width: 90%;
     margin: 0;
+  }
+  
+  .boxlabel {
+    margin: 15px 0 0 10px;
   }
     
 }
