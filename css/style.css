@@ -125,7 +125,7 @@ hr {
 .boxLabel {
   display: flex;
   align-items: center;
-  width: 250px;
+  width: 150px;
   height: 15px;
   margin: 15px 0 0 150px;
   padding: 3px 0 3px 7px;
