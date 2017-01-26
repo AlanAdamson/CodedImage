@@ -118,7 +118,7 @@ hr {
 .portfolioBox img {
   width: 300px;
   height: 150px;
-  position: absolute;
+/*   position: absolute; */
   z-index: 10;
 }
 
