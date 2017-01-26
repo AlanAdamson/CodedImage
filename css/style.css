@@ -138,21 +138,15 @@ hr {
   z-index: 100;
 }
 .workDescrip {
-/*   display: none; */
   width: 290px;
   height: 65px;
   padding: 0 10px 25px 10px;
-/*   color: #541633; */
   font-family: 'Arial', sans-serif;
-/*   margin: 0;
-  position: absolute;
-  z-index: 40;
-  background-color: rgba(204, 204, 204, 0.5) */
 }
 
-/* .portfolioBox:hover .workDescrip {
- display: block;
-} */
+.portfolioBox:hover {
+   box-shadow: 0 0 15px #333;
+}
 
 .singleBoxWrap {
   display: flex;
