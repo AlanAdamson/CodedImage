@@ -2,11 +2,12 @@
   "name": "codedimage",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
+    "prestart": "next build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlanAdamson/codedimage.git"
