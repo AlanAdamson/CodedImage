@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "prestart": "next build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
@@ -12,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/AlanAdamson/codedimage.git"
   },
-  "author": "",
+  "author": "Alan Adamson",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AlanAdamson/codedimage/issues"
