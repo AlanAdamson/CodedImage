@@ -2,16 +2,16 @@
   "name": "codedimage",
   "version": "1.0.0",
   "description": "",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlanAdamson/codedimage.git"
   },
-  "author": "Alan Adamson",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AlanAdamson/codedimage/issues"
