@@ -5,12 +5,13 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #541633;
+  background-color: #333;
   font-family: 'Arial', sans-serif;
-  color: #999;
+  color: #ccc;
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 header {
@@ -23,7 +24,7 @@ header {
 
 .logo {
   font-family: 'Special Elite', 'Arial', sans-serif;
-  color: #882;
+  color: #f60;
   font-size: 6em;
   font-weight: normal;
   width: 586px;
@@ -39,7 +40,6 @@ header {
 
 .nav a {
   text-decoration: none;
-  color: #369;
   padding: 15px;
   font: 1.5em 'Arial';
 }
@@ -72,15 +72,16 @@ ui-view {
 
 a {
   text-decoration: none;
-  color: #369;
+  color: #ACB645;
 }
 
-a:hover {
-  color: #39ACAC;
+svg {
+  fill: #ACB645;
 }
 
-a:hover > svg {
-  fill: #39ACAC;
+a:hover, a:hover > svg {
+  color: #ccd38a;
+  fill: #ccd38a;
 }
 
 hr {
@@ -88,28 +89,11 @@ hr {
   margin: 25px;
 }
 
-.tagline {
-  font-size: 1.25em;
-  font-family: 'Arial', sans-serif;
-  color: #30B577;
-  color: #4D0026;
-  color: #33001A;
-  color: #330001;
-  color: #000;
-  /*font-weight: bold;*/
-  font-style: italic;
-  font-weight: bold;
-  margin: -40px 0 0 100px;
-  position: absolute;
-}
-
 .myName {
   font-size: 2.5em;
   font-family: 'Lobster', 'Arial', sans-serif;
   margin: 0;
-/*   color: #933; */
-/*   color: #FF3D3D; */
-  color: #369;
+  color: #338099;
 }
 
 .profilePic {
@@ -119,20 +103,9 @@ hr {
 .portfolioBox {
   width: 300px;
   height: 150px;
-  border: 5px solid #999;
-  box-shadow: inset 0 0 15px 0 #000;
-  /*margin: 15px;*/
+  border: 1px solid #999;
+  box-shadow: 0 0 15px #000;
   display: flex;
-  align-items: flex-end;
-  flex-direction: row;
-}
-
-.portfolioBoxShadow {
-  width: 300px;
-  height: 150px;
-  box-shadow: inset 0 0 15px 0 #000;
-  position: absolute;
-  z-index: 80;
 }
 
 .portfolioBox img {
@@ -143,35 +116,31 @@ hr {
 }
 
 .boxLabel {
-  background-color: #882;
-  width: 120px;
-  margin: -110px 0 0 190px;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 15px;
+  margin: 15px 0 0 150px;
   padding: 3px 0 3px 7px;
-  border: 1px solid #541633;
-  box-shadow: 0 0 7px #541633;
   font-family: 'Arial', sans-serif;
-  font-size: .75em;
+  font-size: .95em;
   color: #000;
-  position: absolute;
+  background-color: #ccd38a;
+  border: 1px solid #999;
+  box-shadow: 0 0 10px #000;
   z-index: 100;
+  position: absolute;
 }
-
 .workDescrip {
-/*   display: none; */
   width: 290px;
   height: 65px;
   padding: 0 10px 25px 10px;
-/*   color: #541633; */
   font-family: 'Arial', sans-serif;
-/*   margin: 0;
-  position: absolute;
-  z-index: 40;
-  background-color: rgba(204, 204, 204, 0.5) */
 }
 
-/* .portfolioBox:hover .workDescrip {
- display: block;
-} */
+.portfolioBox:hover {
+   box-shadow: 0 0 15px #888;
+}
 
 .singleBoxWrap {
   display: flex;
@@ -191,65 +160,23 @@ hr {
 }
 
 .contentWrap {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 1080px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1080px;
+}
+
+.soon {
+  width: 45%;
+  margin: 100px;
+  text-indent: 25px;
+  display: flex;
+  flex-direction: row;
 }
 
 /*.logoMed::before {
   text-shadow: 2px 2px 0 #ffffff;
 }*/
-
-@media screen and (max-width: 1096px) {
-
-  .contentWrap {
-    max-width: 720px;
-  }
-
-}
-
-@media screen and (max-width: 630px) {
-
-  .singleBoxWrap {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .logo {
-    font-size: 3em;
-  }
-
-  .contentWrap {
-    flex-direction: column;
-  }
-
-  .workDescrip {
-    display: block;
-  }
-
-  .profile {
-    flex-direction: column;
-  }
-
-  .profileRight {
-    padding: 0px;
-    align-items: center;
-  }
-
-  hr {
-    width: 90vw;
-  }
-
-  .myName {
-    font-size: 2em;
-  }
-
-  .profilePic {
-    width: 150px;
-  }
-
-}
 
 .typed-cursor{
     opacity: 1;
@@ -321,9 +248,10 @@ hr {
 
 .connect {
   display: flex;
-  flex-direction: row;
+/*   flex-direction: row;
   width: 100vw;
-  justify-content: center;
+  justify-content: center; */
+  padding: 0 0 0 25px;
 }
 
 .connectLink {
@@ -336,13 +264,70 @@ hr {
   margin: 5px;
 }
 
-svg {
-  fill: #369;
-}
-
 footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 500px;
   padding: 25px 0 25px 0;
+  border-top: 1px solid #999;
+}
+@media screen and (max-width: 1096px) {
+
+  .contentWrap {
+    max-width: 720px;
+  }
+
+}
+
+@media screen and (max-width: 630px) {
+
+  .singleBoxWrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo {
+    font-size: 3em;
+    width: 293px;
+  }
+
+  .contentWrap {
+    flex-direction: column;
+  }
+
+  .workDescrip {
+    display: block;
+  }
+
+  .profile {
+    flex-direction: column;
+  }
+
+  .profileRight {
+    padding: 0px;
+    align-items: center;
+  }
+
+  footer {
+    width: 90vw;
+  }
+
+  .myName {
+    font-size: 2em;
+  }
+
+  .profilePic {
+    width: 150px;
+  }
+  
+  .soon {
+    width: 90%;
+    margin: 0;
+  }
+  
+  .boxlabel {
+    margin: 15px 0 0 10px;
+  }
+    
 }
